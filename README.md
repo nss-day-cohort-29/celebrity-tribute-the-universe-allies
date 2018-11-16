@@ -21,7 +21,6 @@ This should be the first information displayed when the report is opened. It sho
 ## Career
 
 We want to see the artist's list of talents. This page should include the following components.
-
 1. Short intro to artist.
 1. List of skills/talents.
 1. List of published works - minimum of 3 with images.
@@ -30,7 +29,6 @@ We want to see the artist's list of talents. This page should include the follow
 1. List of awards.
 
 ## Personal
-
 1. Birth date with country of origin.
 1. Birth name (if different than public name)
 1. Death date if applicable. 

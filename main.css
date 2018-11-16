@@ -1,0 +1,52 @@
+
+body{
+    background-color: black;
+}
+
+/* FOOTER STYLING */
+
+.test{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.test{
+    display: flex;
+    background-color: blue;
+}
+
+.test li{
+  display: flex;
+}
+
+.test li a{
+    margin: 14px;
+}
+
+
+
+.fa{
+    text-decoration: none;
+    transition: .25s;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+/* FOOTER STYLING */
