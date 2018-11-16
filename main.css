@@ -1,36 +1,65 @@
 
 body{
-    background-color: black;
+   background-color: white;
+
+}
+
+/* HEADER CSS */
+
+.nav-container {
+  background-color: grey;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-content: center;
+  padding: 2em;
+}
+
+.navbar-item {
+  text-decoration: none;
 }
 
 /* FOOTER STYLING */
 
 .test{
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  font-size: 25px;
+  width: 100%;
   text-decoration: none;
-  border-radius: 50%;
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+  display: flex;
 }
 
-.test{
-    display: flex;
-    background-color: blue;
+.test h3{
+  color: white;
+  padding-left: 70%;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 300;
+  padding-top: 22px;
+  
+
 }
+
 
 .test li{
   display: flex;
 }
 
 .test li a{
-    margin: 14px;
+   margin: 10px;
 }
 
 
-
 .fa{
-    text-decoration: none;
-    transition: .25s;
+  text-decoration: none;
+  transition: .25s; 
 }
 
 .fa:hover {
