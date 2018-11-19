@@ -147,7 +147,8 @@ body{
 
 .picture-container img {
   height: 200px;
-  width: auto;
+  width: 150px;
+  object-fit: cover
 }
 
 /* Personal Page Styling */
