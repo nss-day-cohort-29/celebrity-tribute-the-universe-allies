@@ -114,3 +114,14 @@ body{
 }
 
 /* Page Styles */
+/* news page table styling */
+
+th {
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+}
+td {
+  text-align: center;
+  padding: 6px;
+  font-size: 12px;
+}
