@@ -120,6 +120,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .content_personal h1 {
@@ -128,7 +129,9 @@ body {
 
 .container_personal {
   border: solid 2px white;
+  border-radius: 1em;
   margin: 1em;
+  width: 50em;
 }
 
 .family-pictures {
@@ -138,13 +141,22 @@ body {
   justify-content: center;
 }
 
+.family-pictures img {
+  transition: 2s;
+}
+
+.family-pictures img:hover {
+  transform: scale(1.05);
+}
+
 .picture-container {
   padding: 1em;
 }
 
 .picture-container img {
   height: 200px;
-  width: auto;
+  width: 150px;
+  object-fit: cover
 }
 
 /* Career page CSS */
