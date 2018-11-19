@@ -122,10 +122,16 @@ body{
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .content_personal h1 {
   padding-top: 50px;
+}
+
+.container_personal {
+  border: solid 2px white;
+  margin: 1em;
 }
 
 .family-pictures {
