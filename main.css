@@ -53,6 +53,7 @@ body {
   padding-left: 70%;
   font-size: 15px;
   padding-top: 15px;
+  white-space: nowrap;
 }
 
 .test li {
@@ -86,6 +87,7 @@ body {
 
 /* FOOTER STYLING */
 
+/* Executive Summary Styles */
 /* Page Styles */
 .content {
   text-align: center;
