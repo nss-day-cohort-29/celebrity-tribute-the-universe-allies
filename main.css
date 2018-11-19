@@ -97,7 +97,7 @@ body {
 
 .summaryIMG {
   display: inline-block;
-  max-width: 200px;
+  max-width: 300px;
   transition: 2s;
   padding-top: 25px;
 }
@@ -107,7 +107,7 @@ body {
 }
 
 .content h2 {
-  padding-top: 125px;
+  padding-top: 50px;
 }
 
 /* Executive Summary Styles */
