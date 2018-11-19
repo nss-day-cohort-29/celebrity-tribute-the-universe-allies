@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
 
 body{
-   background-color: white;
-
+   background-color: #21252B;
+   text-transform: uppercase;
+   font-family: 'Quicksand', sans-serif;
+   letter-spacing: 1.5px;
+   color:white;
+   word-spacing: 3px;
+   line-height: 30px;
 }
 
 /* HEADER CSS */
 
 .nav-container {
-  background-color: grey;
+  background-color:#21252B;
 }
 
 .navbar {
@@ -20,18 +26,24 @@ body{
 
 .navbar-item {
   text-decoration: none;
+  color:white;
 }
 
+.navbar-item:hover{
+  opacity: .5;
+  transition: .25s;
+}
+/* HEADER CSS */
 /* FOOTER STYLING */
 
 .test{
   font-size: 25px;
   width: 100%;
   text-decoration: none;
-  position:fixed;
+  position: relative;
   right: 0;
   bottom: 0;
-  background-color: black;
+  background-color:#21252B;
   text-align: center;
   display: flex;
 }
@@ -40,9 +52,7 @@ body{
   color: white;
   padding-left: 70%;
   font-size: 15px;
-  font-family: sans-serif;
-  font-weight: 300;
-  padding-top: 22px;
+  padding-top: 15px;
   
 
 }
@@ -79,3 +89,28 @@ body{
 }
 
 /* FOOTER STYLING */
+
+/* Page Styles */
+.content{
+  text-align: center;
+  padding-top: 50px;
+  background-color: #282C34;
+}
+
+.summaryIMG{
+  display: inline-block;
+  max-width: 200px;
+  transition: 2s;
+  padding-top: 25px;
+}
+
+.summaryIMG:hover{
+  transform: scale(1.05);
+}
+
+
+.content h2{
+  padding-top: 125px;
+}
+
+/* Page Styles */
