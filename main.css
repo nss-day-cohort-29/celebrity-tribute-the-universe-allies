@@ -53,7 +53,6 @@ body {
   padding-left: 70%;
   font-size: 15px;
   padding-top: 15px;
-  font-size: 12px;
   white-space: nowrap;
 }
 
@@ -89,6 +88,7 @@ body {
 /* FOOTER STYLING */
 
 /* Executive Summary Styles */
+/* Page Styles */
 .content {
   text-align: center;
   padding-top: 50px;
@@ -110,6 +110,22 @@ body {
   padding-top: 125px;
 }
 
+/* Page Styles */
+
+/* career page styling */
+
+.career_style {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.career_img {
+  margin: 10px;
+  width: 280px;
+  height: 250px;
+  flex-basis: 33%;
+}
 /* Executive Summary Styles */
 
 /* Personal Page Styling */
