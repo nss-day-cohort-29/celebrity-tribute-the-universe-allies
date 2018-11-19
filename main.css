@@ -124,3 +124,48 @@ body {
   height: 250px;
   flex-basis: 33%;
 }
+/* Executive Summary Styles */
+
+/* Personal Page Styling */
+
+.content_personal {
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_personal h1 {
+  padding-top: 1em;
+}
+
+.family-pictures {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.picture-container {
+  padding: 1em;
+}
+
+.picture-container img {
+  height: 200px;
+  width: auto;
+}
+
+/* Personal Page Styling */
+/* Page Styles */
+/* news page table styling */
+
+th {
+  padding-top: 50px;
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+}
+td {
+  text-align: center;
+  padding: 6px;
+  font-size: 12px;
+}
