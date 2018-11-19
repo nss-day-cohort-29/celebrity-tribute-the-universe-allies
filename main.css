@@ -90,7 +90,7 @@ body{
 
 /* FOOTER STYLING */
 
-/* Page Styles */
+/* Executive Summary Styles */
 .content{
   text-align: center;
   padding-top: 50px;
@@ -113,4 +113,35 @@ body{
   padding-top: 125px;
 }
 
-/* Page Styles */
+/* Executive Summary Styles */
+
+/* Personal Page Styling */
+
+.content_personal {
+  background-color: #282C34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_personal h1 {
+  padding-top: 1em;
+}
+
+.family-pictures {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.picture-container {
+  padding: 1em;
+}
+
+.picture-container img {
+  height: 200px;
+  width: auto;
+}
+
+/* Personal Page Styling */
