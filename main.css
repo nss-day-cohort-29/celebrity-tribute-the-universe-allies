@@ -167,7 +167,8 @@ body {
   transition: 0.5s;
 }
 
-.career_img img {
+.career_award h2 {
+  margin-top: 5px;
 }
 
 /* Personal Page Styling */
