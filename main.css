@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:500");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
 
-body {
-  background-color: #21252b;
-  text-transform: uppercase;
-  font-family: "Quicksand", sans-serif;
-  letter-spacing: 1.5px;
-  color: white;
-  word-spacing: 3px;
-  line-height: 30px;
+body{
+   background-color: #21252B;
+   text-transform: uppercase;
+   font-family: 'Quicksand', sans-serif;
+   letter-spacing: 1.5px;
+   color:white;
+   word-spacing: 3px;
+   line-height: 30px;
 }
 
 /* HEADER CSS */
 
 .nav-container {
-  background-color: #21252b;
+  background-color:#21252B;
 }
 
 .navbar {
@@ -26,51 +26,54 @@ body {
 
 .navbar-item {
   text-decoration: none;
-  color: white;
+  color:white;
 }
 
-.navbar-item:hover {
-  opacity: 0.5;
-  transition: 0.25s;
+.navbar-item:hover{
+  opacity: .5;
+  transition: .25s;
 }
 /* HEADER CSS */
 /* FOOTER STYLING */
 
-.test {
+.test{
   font-size: 25px;
   width: 100%;
   text-decoration: none;
   position: relative;
   right: 0;
   bottom: 0;
-  background-color: #21252b;
+  background-color:#21252B;
   text-align: center;
   display: flex;
 }
 
-.test h3 {
+.test h3{
   color: white;
   padding-left: 70%;
   font-size: 15px;
   padding-top: 15px;
+  font-size: 12px;
   white-space: nowrap;
 }
 
-.test li {
+
+.test li{
   display: flex;
 }
 
-.test li a {
-  margin: 10px;
+.test li a{
+   margin: 10px;
 }
 
-.fa {
+
+.fa{
   text-decoration: none;
-  transition: 0.25s;
+  transition: .25s; 
 }
 
 .fa:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .fa-facebook {
@@ -88,57 +91,41 @@ body {
 /* FOOTER STYLING */
 
 /* Executive Summary Styles */
-/* Page Styles */
-.content {
+.content{
   text-align: center;
   padding-top: 50px;
-  background-color: #282c34;
+  background-color: #282C34;
 }
 
-.summaryIMG {
+.summaryIMG{
   display: inline-block;
   max-width: 200px;
   transition: 2s;
   padding-top: 25px;
 }
 
-.summaryIMG:hover {
+.summaryIMG:hover{
   transform: scale(1.05);
 }
 
-.content h2 {
+
+.content h2{
   padding-top: 125px;
 }
 
-/* Page Styles */
-
-/* career page styling */
-
-.career_style {
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.career_img {
-  margin: 10px;
-  width: 280px;
-  height: 250px;
-  flex-basis: 33%;
-}
 /* Executive Summary Styles */
 
 /* Personal Page Styling */
 
 .content_personal {
-  background-color: #282c34;
+  background-color: #282C34;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
 .content_personal h1 {
-  padding-top: 1em;
+  padding-top: 50px;
 }
 
 .family-pictures {
@@ -161,8 +148,8 @@ body {
 /* Page Styles */
 /* news page table styling */
 
+
 th {
-  padding-top: 50px;
   height: 50px;
   border-bottom: 1px solid whitesmoke;
 }
@@ -170,4 +157,7 @@ td {
   text-align: center;
   padding: 6px;
   font-size: 12px;
+}
+h1 {
+  padding-bottom: 40px;
 }
